@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./lib/**/*.{js,ts,jsx,tsx}",
+    './lib/**/*.{js,ts,jsx,tsx}',
     // "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
@@ -12,10 +12,9 @@ export default {
         'dark-background': 'var(--dark-background)',
       },
       fontFamily: {
-        "noto": ['Noto Sans', 'sans-serif']
-      }
+        noto: ['Noto Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],
-}
-
+};

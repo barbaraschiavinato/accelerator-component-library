@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Button,
   Input,
@@ -7,33 +7,33 @@ import {
   ErrorMessage,
   Item,
   List,
-} from "../lib";
+} from '../lib';
 
 const data = [
   {
     id: 1,
-    name: "iPhone 9",
+    name: 'iPhone 9',
     data: {
-      color: "black",
-      capacity: "64GB",
+      color: 'black',
+      capacity: '64GB',
       price: 549,
     },
   },
   {
     id: 2,
-    name: "iPhone X",
+    name: 'iPhone X',
     data: {
-      color: "red",
-      capacity: "256GB",
+      color: 'red',
+      capacity: '256GB',
       price: 839,
     },
   },
   {
     id: 3,
-    name: "iPhone 12",
+    name: 'iPhone 12',
     data: {
-      color: "blue",
-      capacity: "128GB",
+      color: 'blue',
+      capacity: '128GB',
       price: 1099,
     },
   },
@@ -45,7 +45,7 @@ function App() {
       <form noValidate>
         <div className="mb-5">
           <Label htmlFor="name">Username</Label>
-          <Input aria-invalid={"false"} placeholder="Enter username" />
+          <Input aria-invalid={'false'} placeholder="Enter username" />
           <ErrorMessage>Username is required</ErrorMessage>
         </div>
         <div className="mb-5">
@@ -53,18 +53,14 @@ function App() {
           <Input
             id="email"
             type="email"
-            aria-invalid={"false"}
+            aria-invalid={'false'}
             placeholder="Enter email address"
           />
           <ErrorMessage>Email Address is required</ErrorMessage>
         </div>
         <Button as="input" type="submit" />
       </form>
-      <List>
-        {data?.map((item) => (
-          <Item {...item} key={item.id} />
-        ))}
-      </List>
+      <List>{data?.map((item) => <Item {...item} key={item.id} />)}</List>
     </Container>
   );
 }
