@@ -1,5 +1,5 @@
 {
-  "name": "accelerator-component-library",
+  "name": "root",
   "private": true,
   "workspaces": [
     "packages/*"

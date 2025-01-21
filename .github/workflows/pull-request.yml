@@ -1,0 +1,54 @@
+name: Pull Request Workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build:
+    name: Install build and test application
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        registry-url: 'https://npm.pkg.github.com/'
+        scope: '@ntt-data-afc'
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_PUBLISH_PACKAGES_TOKEN }}        
+
+    - name: Install dependencies
+      run: npm ci
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Run audit
+      run: npm run audit
+
+    - name: Run lint
+      run: npm run lint
+    
+    - name: Run prettier
+      run: npm run prettier --check
+
+    - name: Run build
+      run: npm run build
+
+    - name: Run coverage
+      run: npm run coverage
+
+    - name: Write to Job Summary
+      run: cat coverage/coverage-summary.md >> $GITHUB_STEP_SUMMARY
+
+    
+    # - name: Run tests
+    #   run: npm run test
+
+
