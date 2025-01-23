@@ -1,4 +1,5 @@
 import React from 'react';
+import './button.css';
 
 type ButtonProps<T extends React.ElementType> = {
   as?: T;

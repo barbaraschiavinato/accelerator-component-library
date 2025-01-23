@@ -1,1 +1,5 @@
 node_modules/
+packages/ui-components/dist
+packages/ui-components/node_modules
+packages/storybook/storybook-static
+packages/storybook/node_modules

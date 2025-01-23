@@ -20,10 +20,11 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc --p ./tsconfig.build.json && vite build",
     "lint": "eslint",
     "test": "jest",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "build:tsup": "tsup"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -51,6 +52,7 @@
     "react-dom": "^19.0.0",
     "tailwindcss": "^3.4.17",
     "ts-jest": "^29.2.5",
+    "tsup": "^8.0.1",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5",

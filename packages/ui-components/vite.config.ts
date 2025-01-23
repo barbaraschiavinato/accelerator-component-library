@@ -2,19 +2,17 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import { resolve } from 'path';
 import dts from 'vite-plugin-dts';
-import tailwindcss from 'tailwindcss';
+// import tailwindcss from 'tailwindcss';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, './lib/index.ts'),
-      name: 'ui-components',
-      fileName: (format) => `index.${format}.js`,
+      formats: ['es', 'cjs'],
     },
     rollupOptions: {
-      external: ['react', 'react-dom', 'tailwindcss'],
+      external: ['react', 'react-dom', 'tailwindcss', 'react/jsx-runtime'],
       output: {
         globals: {
           react: 'React',
@@ -27,9 +25,10 @@ export default defineConfig({
     emptyOutDir: true,
   },
   plugins: [react(), dts({ rollupTypes: true }), tsconfigPaths()],
-  css: {
-    postcss: {
-      plugins: [tailwindcss],
-    },
-  },
+  /* enabling the postcss tailwindcss plugin includes the default tailwindcss css on the exported files */
+  // css: {
+  //   postcss: {
+  //     plugins: [tailwindcss],
+  //   },
+  // },
 });
