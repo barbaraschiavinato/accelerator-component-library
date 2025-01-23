@@ -43,7 +43,7 @@ describe('Button component', () => {
     );
   });
 
-  it('applies the additionsl className', () => {
+  it('applies the additional className', () => {
     render(<Button className='additional'>Click Me</Button>);
     const buttonElement = screen.getByRole('button');
     expect(buttonElement).toHaveClass(
