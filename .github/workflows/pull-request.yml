@@ -44,11 +44,4 @@ jobs:
     - name: Run coverage
       run: npm run coverage
 
-    - name: Write to Job Summary
-      run: cat coverage/coverage-summary.md >> $GITHUB_STEP_SUMMARY
-
-    
-    # - name: Run tests
-    #   run: npm run test
-
 
