@@ -6,5 +6,8 @@ export default {
   transform: {
     '^.+.tsx?$': ['ts-jest', {}],
   },
+  moduleNameMapper: {
+    '\\.(css|less)$': 'identity-obj-proxy'
+  },
   setupFilesAfterEnv: ['<rootDir>/test/setupTests.ts'],
 };

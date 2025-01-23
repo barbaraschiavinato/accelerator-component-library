@@ -1,4 +1,4 @@
-export { Button } from './formElements/button';
+export { Button } from './formElements/Button';
 export { Input } from './formElements/input';
 export { ErrorMessage } from './formElements/error';
 export { Label } from './formElements/label';
