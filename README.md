@@ -1,5 +1,6 @@
 # @ntt-data-fe/ui-components
 
+
 ## Overview
 
 `@ntt-data-fe/ui-components` is a library of reusable React components designed for modern web applications. It is built with TypeScript, TailwindCSS, and Vite for fast development and efficient bundling. The library includes components for form elements, layout elements, and list elements, along with Storybook integration for showcasing and testing components.
@@ -71,10 +72,12 @@ The following npm scripts are available:
 | `npm run build`           | Builds the library for production.        |
 | `npm run lint`            | Runs ESLint for code linting.             |
 | `npm run test`            | Executes unit tests using Jest.           |
+| `npm run test:watch`      | Executes continuous unit tests using Jest.|
+| `npm run coverage`        | Executes coverage report using Jest.      |
 | `npm run prettier`        | Formats the codebase with Prettier.       |
 | `npm run storybook`       | Starts the Storybook server.              |
 | `npm run build-storybook` | Builds the Storybook documentation.       |
-
+| `npm run audit`           | Executes the vulnerability test           |
 ---
 
 ## Folder Structure
