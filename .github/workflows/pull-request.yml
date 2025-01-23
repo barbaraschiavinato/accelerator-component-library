@@ -20,7 +20,7 @@ jobs:
       with:
         node-version: '18'
         registry-url: 'https://npm.pkg.github.com/'
-        scope: '@ntt-data-afc'
+        scope: '@ntt-data-fe'
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_PUBLISH_PACKAGES_TOKEN }}        
 

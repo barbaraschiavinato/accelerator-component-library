@@ -5,10 +5,7 @@ on:
   push:
     branches:
       - main  # Adjust as needed
-      - '**/beta*'
-    # paths:
-    #   - 'packages/ui-components/**'
-    #   - 'packages/bl-features/**'
+
 
 jobs:
   setup:
@@ -19,31 +16,12 @@ jobs:
         with:
           node-version: '18'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@ntt-data-afc'  # Your GitHub scope
+          scope: '@ntt-data-fe'  # Your GitHub scope
 
-  # build:
-  #   needs: setup
-  #   runs-on: ubuntu-latest
-  #   strategy:
-  #     matrix:
-  #       package: ['bl-features', 'ui-components']
-  #   steps:
-  #     - uses: actions/checkout@v4
-  #     - uses: actions/setup-node@v4
-  #       with:
-  #         node-version: '18'
-  #     - run: npm ci
-  #     # - run: npm init --scope=@ntt-data-afc/${{ matrix.package }}
-  #     # - run: CI='' npx turbo run build --include-dependencies
-  #     - run: npm run build # --scope=@ntt-data-afc/${{ matrix.package }}  # Adjust if necessary
-  #       working-directory: ./packages/${{ matrix.package }}
 
   build:
     needs: setup
     runs-on: ubuntu-latest
-    # strategy:
-    #   matrix:
-    #     package: ['bl-features', 'ui-components']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -51,10 +29,7 @@ jobs:
           node-version: '18'
       - run: npm install          
       - run: npm ci
-      # - run: npm init --scope=@ntt-data-afc/${{ matrix.package }}
-      # - run: CI='' npx turbo run build --include-dependencies
-      - run: npm run build:ci # --scope=@ntt-data-afc/${{ matrix.package }}  # Adjust if necessary
-        # working-directory: ./packages/${{ matrix.package }}
+      - run: npm run build 
 
 
   publish:
@@ -69,11 +44,10 @@ jobs:
         with:
           node-version: '18'
           registry-url: 'https://npm.pkg.github.com/'
-          scope: '@ntt-data-afc'  # Your GitHub scope
+          scope: '@ntt-data-fe'  # Your GitHub scope
       - run: npm install
       - run: npm ci
       - run: npm run release
-      # - run: npm run publish-packages # --scope=@ntt-data-afc/${{ matrix.package }}  # Adjust if necessary
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
