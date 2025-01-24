@@ -21,9 +21,10 @@ export default defineConfig({
         },
       },
     },
-    sourcemap: true
+    sourcemap: true,
+    copyPublicDir: false,
   },
-  plugins: [react(), dts({ rollupTypes: true }), tsconfigPaths()],
+  plugins: [react(), dts({ rollupTypes: true, include: ['lib'] }), tsconfigPaths()],
   /* enabling the postcss tailwindcss plugin includes the default tailwindcss css on the exported files */
   // css: {
   //   postcss: {
