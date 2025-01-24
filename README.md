@@ -14,6 +14,7 @@
 - **Jest Testing**: Comprehensive unit testing with Jest and Testing Library.
 - **TailwindCSS**: Built-in support for TailwindCSS for styling.
 - **Modular Design**: Organized folder structure for scalability and maintainability.
+- **Commit Convention Enforcement**: Utilizes Husky, commitlint, and lint-staged to enforce commit message conventions and code quality checks before commits. Configurations ensure commits are formatted and validated against the conventional commit format.
 
 ---
 
@@ -50,8 +51,13 @@ Ensure you have the following installed:
    ```bash
    npm install
    ```
+3. Setup Husky:
 
-3. Start the development server:
+   ```bash
+   npm run prepare
+   ```
+
+4. Start the development server:
 
    ```bash
    npm run dev
@@ -76,7 +82,8 @@ The following npm scripts are available:
 | `npm run prettier`        | Formats the codebase with Prettier.        |
 | `npm run storybook`       | Starts the Storybook server.               |
 | `npm run build-storybook` | Builds the Storybook documentation.        |
-| `npm run audit`           | Executes the vulnerability test            |
+| `npm run audit`           | Executes the vulnerability test.           |
+| `npm run prepare`         | Prepares the git hooks with Husky.         |
 
 ---
 
@@ -84,38 +91,33 @@ The following npm scripts are available:
 
 ```plaintext
 accelerator-component-library
-├── .github          # GitHub workflows and configurations
-│   └── workflows
-│       ├── pull-request.yml
-│       └── release.yml
-├── .storybook       # Storybook configuration
-│   ├── main.ts
-│   └── preview.ts
-├── lib              # Library components
-│   ├── components   # Core components
+├── .github             # GitHub workflows and configurations
+├── .storybook          # Storybook configuration
+├── lib                 # Library components
+│   ├── components      # Core components
 │   │   ├── formElements
 │   │   │   ├── Button # Component example
 │   │   │   │   ├── Button.stories.ts
 │   │   │   │   ├── Button.test.tsx
 │   │   │   │   ├── button.css
 │   │   │   │   └── index.tsx
-│   ├── index.css    # Global styles
-│   └── index.ts     # Component exports
-├── src              # Application source code
+│   ├── index.css       # Global styles
+│   └── index.ts        # Component exports
+├── src                 # Sandbox source code
 │   ├── App.tsx
-│   ├── assets       # Static assets
-│   │   ├── favicon.ico
-│   │   └── react.svg
+│   ├── assets          # Static assets
 │   ├── index.css
-│   ├── main.tsx
-│   └── vite-env.d.ts
-├── test             # Test setup and configurations
-│   └── setupTests.ts
-├── public           # Public assets
-├── README.md        # Project documentation
-├── tsconfig.json    # TypeScript configuration
-├── vite.config.ts   # Vite configuration
-└── tailwind.config.js # TailwindCSS configuration
+│   └── main.tsx
+├── test                # Test setup and configurations
+│   └── jest.setup.ts
+├── public              # Public assets
+├── .commitlintrc.json  # commitlint configuration
+├── .lintstagedrc       # lint-stage configuration
+├── README.md           # Project documentation
+├── tsconfig.json       # TypeScript configuration
+├── vite.config.ts      # Vite configuration
+└── tailwind.config.js  # TailwindCSS configuration
+
 ```
 
 ---
@@ -128,7 +130,7 @@ Run unit tests with:
 npm run test
 ```
 
-Test configuration is defined in `jest.config.js`. Additional setup files are located in the `test/setupTests.ts` file.
+Test configuration is defined in `jest.config.js`. Additional setup files are located in the `test/jest.setup.ts` file.
 
 ---
 
