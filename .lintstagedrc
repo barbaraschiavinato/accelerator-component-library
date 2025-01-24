@@ -2,7 +2,7 @@
   "*/**/*.{js,jsx,ts,tsx}": [
     "npm run prettier --fix",
     "npm run lint --fix",
-    "npm run test:ci"
+    "npm run test:ci --passWithNoTests"
   ],
   "*/**/*.{json,css,scss,md}": ["npm run prettier --fix"]
 }

@@ -16,17 +16,6 @@
 - **Modular Design**: Organized folder structure for scalability and maintainability.
 - **Commit Convention Enforcement**: Utilizes Husky, commitlint, and lint-staged to enforce commit message conventions and code quality checks before commits. Configurations ensure commits are formatted and validated against the conventional commit format.
 
----
-
-## Installation
-
-To use the component library in your project:
-
-```bash
-npm install @ntt-data-fe/ui-components
-```
-
----
 
 ## Development
 
@@ -97,10 +86,13 @@ accelerator-component-library
 │   ├── components      # Core components
 │   │   ├── formElements
 │   │   │   ├── Button # Component example
-│   │   │   │   ├── Button.stories.ts
-│   │   │   │   ├── Button.test.tsx
-│   │   │   │   ├── button.css
-│   │   │   │   └── index.tsx
+│   │   │   │   ├── configs             # Component configurations
+│   │   │   │   │   └── variants.ts     
+│   │   │   │   ├── Button.stories.ts   # Related Storybook page
+│   │   │   │   ├── Button.test.tsx     # Unit test
+│   │   │   │   ├── button.css          # Style
+│   │   │   │   ├── Button.tsx          # Main component
+│   │   │   │   └── index.ts            # Component export
 │   ├── index.css       # Global styles
 │   └── index.ts        # Component exports
 ├── src                 # Sandbox source code
@@ -110,6 +102,7 @@ accelerator-component-library
 │   └── main.tsx
 ├── test                # Test setup and configurations
 │   └── jest.setup.ts
+├── stories             # Documentation for Storybook
 ├── public              # Public assets
 ├── .commitlintrc.json  # commitlint configuration
 ├── .lintstagedrc       # lint-stage configuration
