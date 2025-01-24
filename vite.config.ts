@@ -11,6 +11,7 @@ export default defineConfig({
       entry: resolve(__dirname, './lib/index.ts'),
       formats: ['es', 'umd'],
       name: 'ui-components',
+      fileName: (format) => `ui-components.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'tailwindcss', 'react/jsx-runtime'],
@@ -19,13 +20,14 @@ export default defineConfig({
           react: 'React',
           'react-dom': 'ReactDOM',
           tailwindcss: 'tailwindcss',
+          'react/jsx-runtime': 'jsxRuntime',
         },
       },
     },
     sourcemap: true,
     emptyOutDir: true,
   },
-  plugins: [react(), dts({ rollupTypes: true }), tsconfigPaths()],
+  plugins: [react(), dts({ rollupTypes: true, insertTypesEntry: true, }), tsconfigPaths()],
   /* enabling the postcss tailwindcss plugin includes the default tailwindcss css on the exported files */
   // css: {
   //   postcss: {

@@ -3,11 +3,11 @@
   "private": false,
   "version": "0.4.0",
   "type": "module",
-  "types": "dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/ui-components.js",
-      "require": "./dist/ui-components.umd.cjs"
+      "import": "./dist/ui-components.es.js",
+      "require": "./dist/ui-components.umd.js"
     },
     "./styles.css": {
       "require": "./dist/ui-components.css",
