@@ -3,17 +3,8 @@
   "private": false,
   "version": "0.6.0",
   "type": "module",
+  "main": "./dist/ui-components.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/ui-components.es.js",
-      "require": "./dist/ui-components.umd.js"
-    },
-    "./styles.css": {
-      "require": "./dist/ui-components.css",
-      "default": "./dist/ui-components.css"
-    }
-  },
   "files": [
     "dist"
   ],
