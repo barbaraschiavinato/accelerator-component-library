@@ -16,7 +16,6 @@
 - **Modular Design**: Organized folder structure for scalability and maintainability.
 - **Commit Convention Enforcement**: Utilizes Husky, commitlint, and lint-staged to enforce commit message conventions and code quality checks before commits. Configurations ensure commits are formatted and validated against the conventional commit format.
 
-
 ## Development
 
 ### Prerequisites
@@ -40,6 +39,7 @@ Ensure you have the following installed:
    ```bash
    npm install
    ```
+
 3. Setup Husky:
 
    ```bash
@@ -52,7 +52,7 @@ Ensure you have the following installed:
    npm run dev
    ```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+5. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
@@ -87,7 +87,7 @@ accelerator-component-library
 │   │   ├── formElements
 │   │   │   ├── Button # Component example
 │   │   │   │   ├── configs             # Component configurations
-│   │   │   │   │   └── variants.ts     
+│   │   │   │   │   └── variants.ts
 │   │   │   │   ├── Button.stories.ts   # Related Storybook page
 │   │   │   │   ├── Button.test.tsx     # Unit test
 │   │   │   │   ├── button.css          # Style
