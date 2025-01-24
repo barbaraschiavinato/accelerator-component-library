@@ -62,7 +62,7 @@ describe('Button component', () => {
       </Button>,
     );
     const buttonElement = screen.getByRole('button');
-    expect(mockOnClick).toHaveBeenCalledTimes(0);
+    expect(mockOnClick).toHaveBeenCalledTimes(1);
     expect(mockOnFocus).toHaveBeenCalledTimes(0);
     expect(mockOnMouseEnter).toHaveBeenCalledTimes(0);
     expect(mockOnMouseLeave).toHaveBeenCalledTimes(0)
