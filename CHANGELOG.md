@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.4.0...v0.5.0) (2025-01-24)
+
+
+### Features
+
+* update package export ([2905c38](https://github.com/barbaraschiavinato/accelerator-component-library/commit/2905c38fd8fc75beb395dc373ed71108f4ff7b67))
+
+
+
 # [0.4.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.3.0...v0.4.0) (2025-01-24)
 
 
