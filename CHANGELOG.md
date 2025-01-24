@@ -1,3 +1,12 @@
+# [0.12.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.11.0...v0.12.0) (2025-01-24)
+
+
+### Features
+
+* remove types ([5757a29](https://github.com/barbaraschiavinato/accelerator-component-library/commit/5757a29e9a6a0d1b9c776127a29bbef88a6972db))
+
+
+
 # [0.11.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.10.0...v0.11.0) (2025-01-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * rollback ([53b9b29](https://github.com/barbaraschiavinato/accelerator-component-library/commit/53b9b29d92e4eb26d9071cfb44c9e2e0415a1dfa))
-
-
-
-# [0.7.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.6.0...v0.7.0) (2025-01-24)
-
-
-### Features
-
-* rollback ([0627963](https://github.com/barbaraschiavinato/accelerator-component-library/commit/0627963bb916d44ad30c69989ef6c1d8afb6d63d))
 
 
 
