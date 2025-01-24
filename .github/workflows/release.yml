@@ -1,59 +1,26 @@
-name: Build and Publish NPM Packages
-
+name: Releases
 on:
-  workflow_dispatch:
   push:
     branches:
-      - main # Adjust as needed
+      - main
 
 jobs:
-  setup:
+  changelog:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
-          node-version: '20'
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@ntt-data-fe' # Your GitHub scope
-
-  build:
-    needs: setup
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - run: npm install
-      - run: npm ci
-      - run: npm run test:ci
-      - run: npm run build
-
-  publish:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          registry-url: 'https://npm.pkg.github.com/'
-          scope: '@ntt-data-fe' # Your GitHub scope
-      - run: npm ci
-      - run: npm run build
-      - run: npm publish
+          github-token: ${{ secrets.PA_TOKEN }}
+          version-file: './package.json,./package-lock.json'
+      - name: create release
+        uses: actions/create-release@v1
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Archive npm failure logs
-        uses: actions/upload-artifact@v4
-        if: failure()
+          GITHUB_TOKEN: ${{ secrets.PA_TOKEN }}
         with:
-          name: npm-logs
-          path: ~/.npm/_logs
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
