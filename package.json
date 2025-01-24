@@ -12,7 +12,6 @@
     "url": "git+https://github.com/barbaraschiavinato/accelerator-component-library.git"
   },
   "publishConfig": {
-    "provenance": true,
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
