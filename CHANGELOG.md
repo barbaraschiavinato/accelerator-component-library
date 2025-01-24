@@ -1,4 +1,13 @@
-# 0.1.0 (2025-01-24)
+# [0.2.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.1.0...v0.2.0) (2025-01-24)
+
+
+### Features
+
+* change deploy package ([159ad57](https://github.com/barbaraschiavinato/accelerator-component-library/commit/159ad57e9a2e383490b6e1d899958de9905442fe))
+
+
+
+# [0.1.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/10ed660c9c23757b8c199732e6d1b365d4fa1b81...v0.1.0) (2025-01-24)
 
 
 ### Bug Fixes
