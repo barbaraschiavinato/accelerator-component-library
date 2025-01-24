@@ -7,6 +7,10 @@
   "files": [
     "dist/"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barbaraschiavinato/accelerator-component-library"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
