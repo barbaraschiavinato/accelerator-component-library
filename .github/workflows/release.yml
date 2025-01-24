@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main  # Adjust as needed
-
+      - main # Adjust as needed
 
 jobs:
   setup:
@@ -16,8 +15,7 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@ntt-data-fe'  # Your GitHub scope
-
+          scope: '@ntt-data-fe' # Your GitHub scope
 
   build:
     needs: setup
@@ -27,24 +25,24 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm install          
+      - run: npm install
       - run: npm ci
       - run: npm run test:ci
-      - run: npm run build 
+      - run: npm run build
 
   publish:
     needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write    
+      packages: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
           registry-url: 'https://npm.pkg.github.com/'
-          scope: '@ntt-data-fe'  # Your GitHub scope
+          scope: '@ntt-data-fe' # Your GitHub scope
       - run: npm ci
       - run: npm run build
       - run: npm publish
@@ -59,4 +57,3 @@ jobs:
         with:
           name: npm-logs
           path: ~/.npm/_logs
-          

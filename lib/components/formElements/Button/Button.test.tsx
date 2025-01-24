@@ -62,10 +62,10 @@ describe('Button component', () => {
       </Button>,
     );
     const buttonElement = screen.getByRole('button');
-    expect(mockOnClick).toHaveBeenCalledTimes(1);
+    expect(mockOnClick).toHaveBeenCalledTimes(0);
     expect(mockOnFocus).toHaveBeenCalledTimes(0);
     expect(mockOnMouseEnter).toHaveBeenCalledTimes(0);
-    expect(mockOnMouseLeave).toHaveBeenCalledTimes(0)
+    expect(mockOnMouseLeave).toHaveBeenCalledTimes(0);
 
     await userEvent.click(buttonElement); // Simulate click on the button
     expect(mockOnClick).toHaveBeenCalledTimes(1);
@@ -76,7 +76,7 @@ describe('Button component', () => {
 
     await userEvent.tab(); // Simulate blurring (focus leaves the button)
     expect(mockOnBlur).toHaveBeenCalledTimes(1);
-    
+
     await userEvent.hover(buttonElement); // Simulate mouse entering the button
     expect(mockOnMouseEnter).toHaveBeenCalledTimes(2);
 

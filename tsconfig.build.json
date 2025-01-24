@@ -1,6 +1,5 @@
 {
-    "extends": "./tsconfig.json",
-    "include": ["lib"],
-    "copyPublicDir": false
-    
-  }
+  "extends": "./tsconfig.json",
+  "include": ["lib"],
+  "copyPublicDir": false
+}

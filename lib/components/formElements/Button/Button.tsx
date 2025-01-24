@@ -6,7 +6,15 @@ export type ButtonProps<T extends React.ElementType> = {
   as?: T;
   testId?: string;
   className?: string;
-  color?: 'default' | 'alternative' | 'dark' | 'light' | 'green' | 'red' | 'yellow' | 'purple';
+  color?:
+    | 'default'
+    | 'alternative'
+    | 'dark'
+    | 'light'
+    | 'green'
+    | 'red'
+    | 'yellow'
+    | 'purple';
   size?: 'extraSmall' | 'small' | 'base' | 'large' | 'extraLarge';
 } & React.ComponentPropsWithoutRef<T>;
 
