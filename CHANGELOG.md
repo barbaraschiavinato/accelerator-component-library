@@ -1,3 +1,12 @@
+# [0.11.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.10.0...v0.11.0) (2025-01-24)
+
+
+### Features
+
+* remove types ([b5bd6e8](https://github.com/barbaraschiavinato/accelerator-component-library/commit/b5bd6e8d407bae5975d7e7e3bd98bd4e410b9628))
+
+
+
 # [0.10.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.9.0...v0.10.0) (2025-01-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * rollback ([0627963](https://github.com/barbaraschiavinato/accelerator-component-library/commit/0627963bb916d44ad30c69989ef6c1d8afb6d63d))
-
-
-
-# [0.6.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.5.0...v0.6.0) (2025-01-24)
-
-
-### Features
-
-* update package export and storybook build ([652b536](https://github.com/barbaraschiavinato/accelerator-component-library/commit/652b5366d9d6aa87d458d68d88315e1a2765ed09))
 
 
 
