@@ -19,6 +19,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test:watch": "jest --watch",
+    "test:ci": "jest --ci",
     "coverage": "jest --coverage",
     "audit": "npm audit --omit=dev"
   },

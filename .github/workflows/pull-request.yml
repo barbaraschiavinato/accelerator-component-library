@@ -38,6 +38,9 @@ jobs:
     - name: Run prettier
       run: npm run prettier --check
 
+    - name: Run test
+      run: npm run test:ci
+
     - name: Run build
       run: npm run build
     
