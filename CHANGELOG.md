@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.2.0...v0.3.0) (2025-01-24)
+
+
+### Features
+
+* remove Provenance ([15d5e20](https://github.com/barbaraschiavinato/accelerator-component-library/commit/15d5e20e5ccfea7479db3f928970a518db46248c))
+
+
+
 # [0.2.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.1.0...v0.2.0) (2025-01-24)
 
 
