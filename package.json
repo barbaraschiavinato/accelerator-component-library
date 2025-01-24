@@ -1,8 +1,15 @@
 {
   "name": "@ntt-data-fe/ui-components",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "main": "./dist/ui-components.js",
+  "files": [
+    "dist/"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc --p ./tsconfig.build.json && vite build",
@@ -12,6 +19,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test:watch": "jest --watch",
+    "test:ci": "jest --ci",
     "coverage": "jest --coverage",
     "audit": "npm audit --omit=dev"
   },

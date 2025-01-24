@@ -34,7 +34,7 @@ npm install @ntt-data-fe/ui-components
 
 Ensure you have the following installed:
 
-- Node.js (>= 18.x)
+- Node.js (>= 20.x)
 - npm (>= 9.x)
 
 ### Getting Started
@@ -58,7 +58,7 @@ Ensure you have the following installed:
    npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
@@ -141,6 +141,8 @@ To develop and document components in isolation, use Storybook:
    ```bash
    npm run storybook
    ```
+
+4. Open [http://localhost:6006](http://localhost:6006) in your browser.
 
 2. Build Storybook documentation:
 
