@@ -1,3 +1,12 @@
+# [0.8.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.7.0...v0.8.0) (2025-01-24)
+
+
+### Features
+
+* rollback ([53b9b29](https://github.com/barbaraschiavinato/accelerator-component-library/commit/53b9b29d92e4eb26d9071cfb44c9e2e0415a1dfa))
+
+
+
 # [0.7.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.6.0...v0.7.0) (2025-01-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * put package access to public ([d8b7117](https://github.com/barbaraschiavinato/accelerator-component-library/commit/d8b7117a2a0fcb8ebc86189d190f086b645c908b))
-
-
-
-# [0.3.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.2.0...v0.3.0) (2025-01-24)
-
-
-### Features
-
-* remove Provenance ([15d5e20](https://github.com/barbaraschiavinato/accelerator-component-library/commit/15d5e20e5ccfea7479db3f928970a518db46248c))
 
 
 
