@@ -1,3 +1,12 @@
+# [0.10.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.9.0...v0.10.0) (2025-01-24)
+
+
+### Features
+
+* change entrypoint ([e13680d](https://github.com/barbaraschiavinato/accelerator-component-library/commit/e13680d8e4157137b77a1a0067bfd9765338f8ca))
+
+
+
 # [0.9.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.8.0...v0.9.0) (2025-01-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * update package export and storybook build ([652b536](https://github.com/barbaraschiavinato/accelerator-component-library/commit/652b5366d9d6aa87d458d68d88315e1a2765ed09))
-
-
-
-# [0.5.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.4.0...v0.5.0) (2025-01-24)
-
-
-### Features
-
-* update package export ([2905c38](https://github.com/barbaraschiavinato/accelerator-component-library/commit/2905c38fd8fc75beb395dc373ed71108f4ff7b67))
 
 
 
