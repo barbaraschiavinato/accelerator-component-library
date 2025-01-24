@@ -3,9 +3,19 @@
   "private": false,
   "version": "0.4.0",
   "type": "module",
-  "main": "./dist/ui-components.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/ui-components.js",
+      "require": "./dist/ui-components.umd.cjs"
+    },
+    "./styles.css": {
+      "require": "./dist/ui-components.css",
+      "default": "./dist/ui-components.css"
+    }
+  },
   "files": [
-    "dist/"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -27,7 +37,8 @@
     "test:ci": "jest --ci --passWithNoTests",
     "coverage": "jest --coverage",
     "audit": "npm audit --omit=dev",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prebublishOnly": "npm run build"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",

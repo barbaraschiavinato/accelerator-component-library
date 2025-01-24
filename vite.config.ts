@@ -9,7 +9,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, './lib/index.ts'),
-      formats: ['es', 'cjs'],
+      formats: ['es', 'umd'],
+      name: 'ui-components',
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'tailwindcss', 'react/jsx-runtime'],
