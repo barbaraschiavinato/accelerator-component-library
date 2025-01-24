@@ -7,6 +7,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
   build: {
+    outDir: 'dist',
     lib: {
       entry: resolve(__dirname, './lib/index.ts'),
       formats: ['es', 'cjs'],
@@ -24,6 +25,7 @@ export default defineConfig({
     sourcemap: true,
     copyPublicDir: false,
   },
+  base: "./",
   plugins: [react(), dts({ rollupTypes: true, include: ['lib'] }), tsconfigPaths()],
   /* enabling the postcss tailwindcss plugin includes the default tailwindcss css on the exported files */
   // css: {
