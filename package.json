@@ -4,7 +4,6 @@
   "version": "0.10.0",
   "type": "module",
   "main": "dist/ui-components.js",
-  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/barbaraschiavinato/accelerator-component-library.git"
