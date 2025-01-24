@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.3.0...v0.4.0) (2025-01-24)
+
+
+### Features
+
+* put package access to public ([d8b7117](https://github.com/barbaraschiavinato/accelerator-component-library/commit/d8b7117a2a0fcb8ebc86189d190f086b645c908b))
+
+
+
 # [0.3.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.2.0...v0.3.0) (2025-01-24)
 
 
