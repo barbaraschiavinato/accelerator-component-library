@@ -2,11 +2,11 @@ import React, { ReactNode } from 'react';
 
 export const Spinner = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="text-center mt-10">
+    <div className="ui-mt-10 ui-text-center">
       <output>
         <svg
           aria-hidden="true"
-          className="inline w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
+          className="ui-inline ui-h-8 ui-w-8 ui-animate-spin ui-fill-blue-600 ui-text-gray-200 dark:ui-text-gray-600"
           viewBox="0 0 100 101"
           fill="none"
         >
@@ -19,7 +19,7 @@ export const Spinner = ({ children }: { children: ReactNode }) => {
             fill="currentFill"
           />
         </svg>
-        <span className="sr-only">{children}</span>
+        <span className="ui-sr-only">{children}</span>
       </output>
     </div>
   );

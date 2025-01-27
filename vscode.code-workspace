@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.minimap.enabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.quickSuggestions": {
+      "strings": true,
+    },
+    "editor.tabSize": 4,
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.bracketPairColorization.enabled": true,
+    "files.associations": {
+      "*.css": "tailwindcss",
+      "*.js": "javascriptreact",
+      "*.tsx": "typescriptreact",
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.arrowParens": "avoid",
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+  },
+}

@@ -4,7 +4,7 @@ export const Label = ({ ...props }) => {
   return (
     <label
       {...props}
-      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+      className="ui-mb-2 ui-block ui-text-sm ui-font-medium ui-text-gray-900 dark:ui-text-white"
     />
   );
 };

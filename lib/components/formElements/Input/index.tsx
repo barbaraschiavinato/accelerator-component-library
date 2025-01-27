@@ -4,7 +4,7 @@ export const Input = ({ ...props }) => {
   return (
     <input
       {...props}
-      className="font-noto bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+      className="ui-block ui-w-full ui-rounded-lg ui-border ui-border-gray-300 ui-bg-gray-50 ui-p-2.5 ui-font-noto ui-text-sm ui-text-gray-900 focus:ui-border-blue-500 focus:ui-ring-blue-500 dark:ui-border-gray-600 dark:ui-bg-gray-700 dark:ui-text-white dark:focus:ui-border-blue-500 dark:focus:ui-ring-blue-500"
     />
   );
 };
