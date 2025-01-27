@@ -1,3 +1,12 @@
+# [0.18.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.17.0...v0.18.0) (2025-01-27)
+
+
+### Features
+
+* add css prefix ([fa9aa3b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/fa9aa3b5686b7bd2fd0604b1f56e219bf91ba9f1))
+
+
+
 # [0.17.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.16.0...v0.17.0) (2025-01-27)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * change pipeline ([02f7cc3](https://github.com/barbaraschiavinato/accelerator-component-library/commit/02f7cc3321b2e693ebe4f30d5837374adc0f21e0))
-
-
-
-# [0.13.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.12.0...v0.13.0) (2025-01-24)
-
-
-### Features
-
-* add build ([babf253](https://github.com/barbaraschiavinato/accelerator-component-library/commit/babf253961ae3a4ff7919be11bf548404ceeb16e))
 
 
 
