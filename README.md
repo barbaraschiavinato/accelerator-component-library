@@ -186,7 +186,7 @@ This project uses TailwindCSS for styling. Global styles are defined in `lib/ind
 
 ## Suggested VS Code settings
 
-```json
+```js
 {
   "folders": [
     {
