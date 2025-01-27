@@ -1,3 +1,12 @@
+## [0.19.1-rc.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.19.0...v0.19.1-rc.0) (2025-01-27)
+
+
+### Features
+
+* update content ([c9c6670](https://github.com/barbaraschiavinato/accelerator-component-library/commit/c9c6670796b3739f75c3da5013f3943d4a586121))
+
+
+
 # [0.19.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.18.0...v0.19.0) (2025-01-27)
 
 
@@ -33,15 +42,6 @@
 ### Features
 
 * try inject css ([8034b37](https://github.com/barbaraschiavinato/accelerator-component-library/commit/8034b3790385b4eaa12f9b0b31839c02b60df1cb))
-
-
-
-# [0.15.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.14.0...v0.15.0) (2025-01-27)
-
-
-### Features
-
-* add export ([f66f09d](https://github.com/barbaraschiavinato/accelerator-component-library/commit/f66f09dc6d0cf8ea973060c12c03d63bff7a3ecf))
 
 
 
