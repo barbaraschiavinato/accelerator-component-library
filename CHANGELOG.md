@@ -1,3 +1,13 @@
+# [0.19.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.18.0...v0.19.0) (2025-01-27)
+
+
+### Features
+
+* add prefix for stiles ([d87f7bf](https://github.com/barbaraschiavinato/accelerator-component-library/commit/d87f7bfdddee4721b2b99fb8975a03c09e08b656))
+* add prefix for stiles ([da8d626](https://github.com/barbaraschiavinato/accelerator-component-library/commit/da8d626e03d9dc8be8cb4d5d6875d1196b5f12c9))
+
+
+
 # [0.18.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.17.0...v0.18.0) (2025-01-27)
 
 
@@ -32,15 +42,6 @@
 ### Features
 
 * add export ([f66f09d](https://github.com/barbaraschiavinato/accelerator-component-library/commit/f66f09dc6d0cf8ea973060c12c03d63bff7a3ecf))
-
-
-
-# [0.14.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.13.0...v0.14.0) (2025-01-27)
-
-
-### Features
-
-* change pipeline ([02f7cc3](https://github.com/barbaraschiavinato/accelerator-component-library/commit/02f7cc3321b2e693ebe4f30d5837374adc0f21e0))
 
 
 
