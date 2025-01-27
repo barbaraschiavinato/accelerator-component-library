@@ -1,3 +1,11 @@
+## [0.20.1](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.20.0...v0.20.1) (2025-01-27)
+
+
+### Bug Fixes
+
+* test minor ([631bd40](https://github.com/barbaraschiavinato/accelerator-component-library/commit/631bd40eaa528470d9873b7b08ce1f50e036a9b5))
+* trigger the storybook only after release ([91be098](https://github.com/barbaraschiavinato/accelerator-component-library/commit/91be09826e44de5da1385467e177fd1b112eb269))
+
 ## [0.20.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.19.1-rc.0...v0.20.0) (2025-01-27)
 
 
@@ -26,12 +34,4 @@
 ### Features
 
 * add css prefix ([fa9aa3b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/fa9aa3b5686b7bd2fd0604b1f56e219bf91ba9f1))
-
-## [0.17.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.16.0...v0.17.0) (2025-01-27)
-
-
-### Features
-
-* add css ([f9f7c8c](https://github.com/barbaraschiavinato/accelerator-component-library/commit/f9f7c8c256cc7ad4f3d93cac7389169929511168))
-* add css ([41b31e0](https://github.com/barbaraschiavinato/accelerator-component-library/commit/41b31e024a751fa608edd12b0b16f44bfe851c2a))
 
