@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import { resolve } from 'path';
 import dts from 'vite-plugin-dts';
+import { libInjectCss } from 'vite-plugin-lib-inject-css';
 // import tailwindcss from 'tailwindcss';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
@@ -26,7 +27,7 @@ export default defineConfig({
     copyPublicDir: false,
   },
   base: "./",
-  plugins: [react(), dts({ rollupTypes: true, include: ['lib'] }), tsconfigPaths()],
+  plugins: [react(), libInjectCss(), dts({ rollupTypes: true, include: ['lib'] }), tsconfigPaths()],
   /* enabling the postcss tailwindcss plugin includes the default tailwindcss css on the exported files */
   // css: {
   //   postcss: {
