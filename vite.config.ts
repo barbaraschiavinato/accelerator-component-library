@@ -26,8 +26,13 @@ export default defineConfig({
     sourcemap: true,
     copyPublicDir: false,
   },
-  base: "./",
-  plugins: [react(), libInjectCss(), dts({ rollupTypes: true, include: ['lib'] }), tsconfigPaths()],
+  base: './',
+  plugins: [
+    react(),
+    libInjectCss(),
+    dts({ rollupTypes: true, include: ['lib'] }),
+    tsconfigPaths(),
+  ],
   /* enabling the postcss tailwindcss plugin includes the default tailwindcss css on the exported files */
   css: {
     postcss: {
