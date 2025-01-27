@@ -1,3 +1,12 @@
+# [0.15.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.14.0...v0.15.0) (2025-01-27)
+
+
+### Features
+
+* add export ([f66f09d](https://github.com/barbaraschiavinato/accelerator-component-library/commit/f66f09dc6d0cf8ea973060c12c03d63bff7a3ecf))
+
+
+
 # [0.14.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.13.0...v0.14.0) (2025-01-27)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * remove types ([b5bd6e8](https://github.com/barbaraschiavinato/accelerator-component-library/commit/b5bd6e8d407bae5975d7e7e3bd98bd4e410b9628))
-
-
-
-# [0.10.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.9.0...v0.10.0) (2025-01-24)
-
-
-### Features
-
-* change entrypoint ([e13680d](https://github.com/barbaraschiavinato/accelerator-component-library/commit/e13680d8e4157137b77a1a0067bfd9765338f8ca))
 
 
 
