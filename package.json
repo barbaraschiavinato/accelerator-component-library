@@ -13,7 +13,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "files": [
-    "dist"
+    "dist/**/*"
   ],
   "scripts": {
     "dev": "vite",
@@ -28,7 +28,8 @@
     "coverage": "jest --coverage",
     "audit": "npm audit --omit=dev",
     "prepare": "husky",
-    "prebublishOnly": "npm run build"
+    "use:npmReadme": "mv 'README.lib.md' 'README.md'",
+    "prebublishOnly": "npm run use:npmReadme && npm build"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
