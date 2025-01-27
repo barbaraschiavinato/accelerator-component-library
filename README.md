@@ -152,6 +152,27 @@ This project uses TailwindCSS for styling. Global styles are defined in `lib/ind
 
 ---
 
+## Development Standards
+
+### Code Quality
+- Code is automatically linted and formatted on save or commit.
+- Use **ESLint** and **Prettier** to maintain consistency.
+
+### Git Hooks
+- **Husky** is configured to run pre-commit checks using **Lint-Staged**.
+
+### Commit Messages
+- Follow the **Conventional Commits** format for commit messages:
+  - `feat`: A new feature
+  - `fix`: A bug fix
+  - `chore`: Maintenance tasks
+
+![Semantic version](https://cdn.hashnode.com/res/hashnode/image/upload/v1660731677868/Xw7NChXOT.png?auto=compress,format&format=webp)
+
+- fix: Will bump the last digit - patch.
+- feat - Will bump the middle digit - minor
+- feat!: - the `!` will bump the first digit by - major
+
 ## Linting and Formatting
 
 - Run ESLint:
