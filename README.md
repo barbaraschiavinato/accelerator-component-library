@@ -183,7 +183,7 @@ This project uses TailwindCSS for styling. Global styles are defined in `lib/ind
     "editor.quickSuggestions": {
       "strings": true // Enable quick suggestions in strings
     },
-    "editor.tabSize": 4, // Standard for JavaScript/React projects
+    "editor.tabSize": 2, // Standard for JavaScript/React projects
     "editor.snippetSuggestions": "top", // Show snippets on top of IntelliSense suggestions
     "editor.suggestSelection": "recentlyUsedByPrefix", // Prioritize recent suggestions
     "editor.bracketPairColorization.enabled": true, // Highlight matching brackets
@@ -197,7 +197,7 @@ This project uses TailwindCSS for styling. Global styles are defined in `lib/ind
     "prettier.trailingComma": "all",  // Add trailing commas
     "prettier.arrowParens": "avoid", // Avoid parentheses for single-parameter arrow functions
     "prettier.singleQuote": true,  // Use single quotes
-    "prettier.tabWidth": 4  // Standard for JavaScript/React projects
+    "prettier.tabWidth": 2  // Standard for JavaScript/React projects
   }
 }
 ```

@@ -1,21 +1,30 @@
-name: Releases
+name: Manual release
 on:
-  push:
-    branches:
-      - main
-
+  workflow_dispatch:
+    inputs:
+      prerelease:
+        description: 'prerelease: true to identify the release as a prerelease. false to identify the release as a full release.'
+        type: choice
+        required: false
+        default: 'false'
+        options:
+          - true
+          - false
 jobs:
   changelog:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - name: Conventional Changelog Action
         id: changelog
-        uses: TriPSs/conventional-changelog-action@v3.7.1
+        uses: TriPSs/conventional-changelog-action@v5
         with:
           github-token: ${{ secrets.PA_TOKEN }}
+          pre-release: ${{ inputs.prerelease == 'true' }}
           version-file: './package.json,./package-lock.json'
-      - name: create release
+      - name: Create release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
@@ -24,3 +33,4 @@ jobs:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
+          prerelease: ${{ inputs.prerelease == 'true' }}
