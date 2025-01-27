@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./lib/**/*.{js,ts,jsx,tsx}'],
-  prefix: 'ui-',
+  prefix: 'ui-', // prefix for class names
   theme: {
     extend: {
       colors: {
