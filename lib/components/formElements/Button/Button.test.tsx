@@ -45,7 +45,7 @@ describe('Button component', () => {
     render(<Button className="additional">Click Me</Button>);
     const buttonElement = screen.getByRole('button');
     expect(buttonElement).toHaveClass(
-      'additional text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800',
+      'additional ui-text-white ui-bg-blue-700 hover:ui-bg-blue-800 focus:ui-ring-4 focus:ui-outline-none focus:ui-ring-blue-300 ui-font-medium ui-rounded-lg ui-text-sm ui-px-5 ui-py-2.5 ui-text-center dark:ui-bg-blue-600 dark:hover:ui-bg-blue-700 dark:focus:ui-ring-blue-800',
     );
   });
 
