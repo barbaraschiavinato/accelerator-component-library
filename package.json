@@ -29,7 +29,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc --p ./tsconfig.build.json && vite build",
+    "build": "tsc && vite build",
     "lint": "eslint",
     "test": "jest",
     "prettier": "prettier --write .",

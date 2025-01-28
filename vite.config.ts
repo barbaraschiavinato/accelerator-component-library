@@ -33,7 +33,6 @@ export default defineConfig({
     dts({ rollupTypes: true, include: ['lib'] }),
     tsconfigPaths(),
   ],
-  /* enabling the postcss tailwindcss plugin includes the default tailwindcss css on the exported files */
   css: {
     postcss: {
       plugins: [tailwindcss],

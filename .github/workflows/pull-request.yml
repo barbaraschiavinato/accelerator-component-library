@@ -19,15 +19,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          registry-url: 'https://npm.pkg.github.com/'
-          scope: '@ntt-data-fe'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_PUBLISH_PACKAGES_TOKEN }}
 
       - name: Install dependencies
         run: npm ci
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run audit
         run: npm run audit
@@ -43,9 +37,6 @@ jobs:
 
       - name: Run build
         run: npm run build
-
-      - name: Run build storybook
-        run: npm run build-storybook
 
       - name: Run coverage
         run: npm run coverage
