@@ -86,13 +86,15 @@ accelerator-component-library
 │   ├── components      # Core components
 │   │   ├── formElements
 │   │   │   ├── Button # Component example
-│   │   │   │   ├── configs             # Component configurations
+│   │   │   │   ├── configs               # Component configurations
 │   │   │   │   │   └── variants.ts
-│   │   │   │   ├── Button.stories.ts   # Related Storybook page
-│   │   │   │   ├── Button.test.tsx     # Unit test
-│   │   │   │   ├── button.css          # Style
-│   │   │   │   ├── Button.tsx          # Main component
-│   │   │   │   └── index.ts            # Component export
+│   │   │   │   ├── stories               # Related Storybook contents 
+│   │   │   │   │   └── Button.mdx        # Component description
+│   │   │   │   │   └── Button.stories.ts # Storibook stories
+│   │   │   │   ├── Button.test.tsx       # Unit test
+│   │   │   │   ├── button.css            # Style
+│   │   │   │   ├── Button.tsx            # Main component
+│   │   │   │   └── index.ts              # Component export
 │   ├── index.css       # Global styles
 │   └── index.ts        # Component exports
 ├── src                 # Sandbox source code
