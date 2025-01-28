@@ -16,19 +16,19 @@ import * as ButtonStories from './Button.stories';
 
 ## Definition
 
-Button is a clickable, interactive element that triggers a response. 
-It can contain text and icons and is often used for actions such as form submissions or toggling elements into view. 
+Button is a clickable, interactive element that triggers a response.
+It can contain text and icons and is often used for actions such as form submissions or toggling elements into view.
 The component is flexible and customizable, supporting different HTML elements (button, a, or input) via the as prop.
 
-The Button component also supports the use of a ref, which is forwarded to the underlying DOM element or custom component specified by the as prop. 
-This allows developers to directly access the DOM node or component instance for tasks such as focusing the element, measuring dimensions, or integrating with third-party libraries. 
+The Button component also supports the use of a ref, which is forwarded to the underlying DOM element or custom component specified by the as prop.
+This allows developers to directly access the DOM node or component instance for tasks such as focusing the element, measuring dimensions, or integrating with third-party libraries.
 The ref type dynamically adapts based on the element type passed to as, ensuring strong type safety.
 
 By default, the Button inherits all the standard properties of the specified HTML element or React component, including:
-	- **Button Props**: For as="button", it supports all native button attributes such as type, onClick, disabled, and aria-* attributes for accessibility.
-	-	**Anchor (Link) Props**: For as="a", it supports attributes like href, target, rel, and others.
-  -	**Input (Button) Props**: For as="input", it supports attributes like type, onClick, disabled, and others.
 
+- **Button Props**: For as="button", it supports all native button attributes such as type, onClick, disabled, and aria-\* attributes for accessibility.
+- **Anchor (Link) Props**: For as="a", it supports attributes like href, target, rel, and others.
+- **Input (Button) Props**: For as="input", it supports attributes like type, onClick, disabled, and others.
 
 ## Usage
 
@@ -38,71 +38,85 @@ By default, the Button inherits all the standard properties of the specified HTM
 #### Variant
 
 - **`default`** (**default**): The standard button appearance, suitable for general-purpose actions.
-<Story of={ButtonStories.Blue} />
+
+  <Story of={ButtonStories.Blue} />
 
 - **`alternative`**: A lighter alternative to the default variant, used for secondary actions.
-<Story of={ButtonStories.Alternative} />
+
+  <Story of={ButtonStories.Alternative} />
 
 - **`dark`**: A dark-themed button, often used for contrast in light interfaces.
-<Story of={ButtonStories.Dark} />
+
+  <Story of={ButtonStories.Dark} />
 
 - **`light`**: A light-themed button, ideal for contrast in dark interfaces.
-<Story of={ButtonStories.Light} />
+
+  <Story of={ButtonStories.Light} />
 
 - **`green`**: A green button, typically used to indicate success or confirmation actions.
-<Story of={ButtonStories.Green} />
+
+  <Story of={ButtonStories.Green} />
 
 - **`red`**: A red button, commonly used for destructive or critical actions.
-<Story of={ButtonStories.Red} />
+
+  <Story of={ButtonStories.Red} />
 
 - **`yellow`**: A yellow button, suitable for warnings or attention-seeking actions.
-<Story of={ButtonStories.Yellow} />
+
+  <Story of={ButtonStories.Yellow} />
 
 - **`purple`**: A purple button, often used for creative or brand-specific styling.
-<Story of={ButtonStories.Purple} />
+  <Story of={ButtonStories.Purple} />
 
 #### Size
 
 - **`extraSmall`**: The smallest button size, ideal for very compact layouts.
-<Story of={ButtonStories.ExtraSmall} />
+
+  <Story of={ButtonStories.ExtraSmall} />
 
 - **`small`**: A slightly larger button, suitable for tight spaces while maintaining usability.
-<Story of={ButtonStories.Small} />
+
+  <Story of={ButtonStories.Small} />
 
 - **`base`** (**default**): The standard button size, appropriate for most use cases.
-<Story of={ButtonStories.Base} />
+
+  <Story of={ButtonStories.Base} />
 
 - **`large`**: A larger button, used for more prominent actions or higher visibility.
-<Story of={ButtonStories.Large} />
+
+  <Story of={ButtonStories.Large} />
 
 - **`extraLarge`**: The largest button size, drawing maximum attention for critical actions.
-<Story of={ButtonStories.ExtraLarge} />
+  <Story of={ButtonStories.ExtraLarge} />
 
 #### Element
 
 - **`button`** (**default**): Renders a native HTML `<button>` element, ideal for standard button interactions.
-<Story of={ButtonStories.AsButton} />
+
+  <Story of={ButtonStories.AsButton} />
 
 - **`a`**: Renders an HTML `<a>` element, useful for buttons that act as links.
-<Story of={ButtonStories.AsLink} />
+
+  <Story of={ButtonStories.AsLink} />
 
 - **`input`**: Renders an HTML `<input>` element, useful for form submissions.
-<Story of={ButtonStories.AsInput} />
+  <Story of={ButtonStories.AsInput} />
 
 #### Shape
 
 - **`default`** (**default**): A standard rectangular button with slightly rounded edges.
-<Story of={ButtonStories.AsButton} />
+
+  <Story of={ButtonStories.AsButton} />
 
 - **`pill`**: A fully rounded button, often used for a softer and more modern look.
-<Story of={ButtonStories.Pill} />
+  <Story of={ButtonStories.Pill} />
 
 #### Disabled
 
 - **`false`** (**default**): The button is enabled and fully interactive.
-<Story of={ButtonStories.AsButton} />
+  <Story of={ButtonStories.AsButton} />
 - **`true`**: The button is disabled, preventing interaction and applying a muted visual style.
-<Story of={ButtonStories.Disabled} />
+  <Story of={ButtonStories.Disabled} />
 
 ## Sandbox and Properties
 
