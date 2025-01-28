@@ -111,7 +111,6 @@ accelerator-component-library
 ├── vite.config.ts      # Vite configuration
 └──  tailwind.config.js  # TailwindCSS configuration
 ```
-
 ---
 
 ## Testing
