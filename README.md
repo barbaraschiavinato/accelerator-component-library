@@ -111,6 +111,7 @@ accelerator-component-library
 ├── vite.config.ts      # Vite configuration
 └──  tailwind.config.js  # TailwindCSS configuration
 ```
+
 ---
 
 ## Testing
@@ -154,13 +155,16 @@ This project uses TailwindCSS for styling. Global styles are defined in `lib/ind
 ## Development Standards
 
 ### Code Quality
+
 - Code is automatically linted and formatted on save or commit.
 - Use **ESLint** and **Prettier** to maintain consistency.
 
 ### Git Hooks
+
 - **Husky** is configured to run pre-commit checks using **Lint-Staged**.
 
 ### Commit Messages
+
 - Follow the **Conventional Commits** format for commit messages:
   - `feat`: A new feature
   - `fix`: A bug fix
