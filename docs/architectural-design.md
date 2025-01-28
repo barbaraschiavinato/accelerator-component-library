@@ -8,12 +8,12 @@
   - Linting and formatting (`prettier` and `lint` scripts).
   - Scripts for the React Sandbox, the storybook and the library generation.
 - **Dependencies**:
-  - Frontend libraries like React, Tailwindcss, etc.
+  - Frontend libraries like React, Tailwindcss, Storybook, etc.
   - Development tools for testing (Jest, Testing Library), linting (ESLint), and types (TypeScript, @types libraries).
 
 ### **Components Overview**
 
-- **Frontend Framework**: React (Vite)
+- **Frontend Framework**: React (Vite), Storybook, Vite package generation,
 - **Styles**: Tailwindcss
 - **Testing**: Jest, React Testing Library
 - **Code Quality**: ESLint, Prettier
