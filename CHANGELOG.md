@@ -1,3 +1,10 @@
+## [0.24.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.23.0...v0.24.0) (2025-01-28)
+
+
+### Features
+
+* fix git hub token position ([c2059e0](https://github.com/barbaraschiavinato/accelerator-component-library/commit/c2059e03e90c58ad1b89fe383b8f1d614697a228))
+
 ## [0.23.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.22.0...v0.23.0) (2025-01-28)
 
 
@@ -37,12 +44,4 @@
 ### Features
 
 * **JIRA-1009:** subject of the commit ([465c560](https://github.com/barbaraschiavinato/accelerator-component-library/commit/465c56015166a3f25385dbfc2751d03244f3fcc2))
-
-## [0.20.1](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.20.0...v0.20.1) (2025-01-27)
-
-
-### Bug Fixes
-
-* test minor ([631bd40](https://github.com/barbaraschiavinato/accelerator-component-library/commit/631bd40eaa528470d9873b7b08ce1f50e036a9b5))
-* trigger the storybook only after release ([91be098](https://github.com/barbaraschiavinato/accelerator-component-library/commit/91be09826e44de5da1385467e177fd1b112eb269))
 
