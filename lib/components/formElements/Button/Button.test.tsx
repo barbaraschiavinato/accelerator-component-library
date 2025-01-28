@@ -21,7 +21,7 @@ describe('Button component', () => {
     expect(buttonElement).toHaveClass('ui-bg-blue-700');
   });
 
-  it("renders a custom component when 'as' prop is provided", () => {
+  it("renders a link when 'as' prop is 'a'", () => {
     render(
       <Button as="a" href="/test">
         Click Me
@@ -33,7 +33,19 @@ describe('Button component', () => {
     expect(linkElement).toHaveAttribute('href', '/test');
   });
 
-  it("renders a custom component when 'input' prop is provided", () => {
+  it("renders a input button when 'as' prop is 'input'", () => {
+    render(
+      <Button as="input" data-testid="input">
+        Click Me
+      </Button>,
+    );
+    const linkElement = screen.getByTestId('input');
+    expect(linkElement).toBeInTheDocument();
+    expect(linkElement).toHaveValue('Click Me');
+    expect(linkElement).toHaveAttribute('type', 'button');
+  });
+
+  it("renders a input submit when 'as' prop is 'input' and type is 'submit'", () => {
     render(
       <Button as="input" type="submit" data-testid="input">
         Click Me
