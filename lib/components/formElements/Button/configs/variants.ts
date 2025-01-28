@@ -14,7 +14,10 @@ const sizes = {
   large: ['ui-text-base', 'ui-px-5', 'ui-py-3'],
   extraLarge: ['ui-text-base', 'ui-px-6', 'ui-py-3.5'],
 };
-
+const shapes = {
+  default: ['ui-rounded-lg'],
+  pill: ['ui-rounded-full'],
+};
 const themes = {
   default: [
     'ui-text-white',
@@ -104,4 +107,5 @@ export const variants = {
   styles,
   sizes,
   themes,
+  shapes,
 };
