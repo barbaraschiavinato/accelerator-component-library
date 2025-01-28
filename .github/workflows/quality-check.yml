@@ -27,7 +27,7 @@ jobs:
       - name: Run audit
         run: npm run audit
 
-      - name: Run TypeScript Type Check
+      - name: Run type check
         run: npm run type-check
 
       - name: Run lint
