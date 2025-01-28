@@ -88,7 +88,7 @@ accelerator-component-library
 │   │   │   ├── Button # Component example
 │   │   │   │   ├── configs               # Component configurations
 │   │   │   │   │   └── variants.ts
-│   │   │   │   ├── stories               # Related Storybook contents 
+│   │   │   │   ├── stories               # Related Storybook contents
 │   │   │   │   │   └── Button.mdx        # Component description
 │   │   │   │   │   └── Button.stories.ts # Storibook stories
 │   │   │   │   ├── Button.test.tsx       # Unit test
