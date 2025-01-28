@@ -1,3 +1,17 @@
+## [0.22.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.21.1...v0.22.0) (2025-01-28)
+
+
+### Features
+
+* add type check ([e5e68e6](https://github.com/barbaraschiavinato/accelerator-component-library/commit/e5e68e6f13484d72ec43b0ca7b243edc15377b80))
+* extend button ([980b77e](https://github.com/barbaraschiavinato/accelerator-component-library/commit/980b77ee148ad094f12af87cb2b1c10f46626b3c))
+* extend coverage ([84a02ef](https://github.com/barbaraschiavinato/accelerator-component-library/commit/84a02efddb2a1374a57686858f4a3bd06a693de0))
+
+
+### Bug Fixes
+
+* format document ([59ea776](https://github.com/barbaraschiavinato/accelerator-component-library/commit/59ea776aeaac8962769c5068b52263dbfe28f6a0))
+
 ## [0.21.1](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.21.0...v0.21.1) (2025-01-28)
 
 
@@ -30,11 +44,4 @@
 ### Bug Fixes
 
 * add the standards ([b4969fe](https://github.com/barbaraschiavinato/accelerator-component-library/commit/b4969fefab32412c821bce3331421787a380fd36))
-
-## [0.19.1-rc.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.19.0...v0.19.1-rc.0) (2025-01-27)
-
-
-### Features
-
-* update content ([c9c6670](https://github.com/barbaraschiavinato/accelerator-component-library/commit/c9c6670796b3739f75c3da5013f3943d4a586121))
 
