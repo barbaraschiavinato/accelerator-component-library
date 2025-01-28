@@ -40,7 +40,8 @@
     "coverage": "jest --coverage",
     "audit": "npm audit --omit=dev",
     "prepare": "husky",
-    "prebublishOnly": "npm run build"
+    "prebublishOnly": "npm run build",
+    "type-check": "tsc --noEmit"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
