@@ -39,6 +39,9 @@ jobs:
       - name: Run test
         run: npm run test:ci
 
+      - name: Generate storybook
+        run: npm run build-storybook
+
       - name: Run build
         run: npm run build
 
