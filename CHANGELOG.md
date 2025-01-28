@@ -1,3 +1,10 @@
+## [0.21.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.20.1...v0.21.0) (2025-01-28)
+
+
+### Features
+
+* **JIRA-1009:** subject of the commit ([465c560](https://github.com/barbaraschiavinato/accelerator-component-library/commit/465c56015166a3f25385dbfc2751d03244f3fcc2))
+
 ## [0.20.1](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.20.0...v0.20.1) (2025-01-27)
 
 
@@ -27,11 +34,4 @@
 
 * add prefix for stiles ([d87f7bf](https://github.com/barbaraschiavinato/accelerator-component-library/commit/d87f7bfdddee4721b2b99fb8975a03c09e08b656))
 * add prefix for stiles ([da8d626](https://github.com/barbaraschiavinato/accelerator-component-library/commit/da8d626e03d9dc8be8cb4d5d6875d1196b5f12c9))
-
-## [0.18.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.17.0...v0.18.0) (2025-01-27)
-
-
-### Features
-
-* add css prefix ([fa9aa3b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/fa9aa3b5686b7bd2fd0604b1f56e219bf91ba9f1))
 
