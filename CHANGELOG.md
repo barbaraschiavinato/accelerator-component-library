@@ -1,3 +1,11 @@
+## [0.23.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.22.0...v0.23.0) (2025-01-28)
+
+
+### Features
+
+* try to change the release ([e2b2560](https://github.com/barbaraschiavinato/accelerator-component-library/commit/e2b25604ea3f3ae347c5d2e5236e0e1cc79b166f))
+* update release version ([840619c](https://github.com/barbaraschiavinato/accelerator-component-library/commit/840619ccff34a9373c5d868794a5b50eafd935d1))
+
 ## [0.22.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.21.1...v0.22.0) (2025-01-28)
 
 
@@ -37,11 +45,4 @@
 
 * test minor ([631bd40](https://github.com/barbaraschiavinato/accelerator-component-library/commit/631bd40eaa528470d9873b7b08ce1f50e036a9b5))
 * trigger the storybook only after release ([91be098](https://github.com/barbaraschiavinato/accelerator-component-library/commit/91be09826e44de5da1385467e177fd1b112eb269))
-
-## [0.20.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.19.1-rc.0...v0.20.0) (2025-01-27)
-
-
-### Bug Fixes
-
-* add the standards ([b4969fe](https://github.com/barbaraschiavinato/accelerator-component-library/commit/b4969fefab32412c821bce3331421787a380fd36))
 
