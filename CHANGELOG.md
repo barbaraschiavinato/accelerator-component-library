@@ -1,3 +1,10 @@
+## [0.25.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.24.0...v0.25.0) (2025-01-28)
+
+
+### Features
+
+* update documentation ([a798e2b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/a798e2b98d42ea2c783f65abb7c940a0cac00eb3))
+
 ## [0.24.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.23.0...v0.24.0) (2025-01-28)
 
 
@@ -37,11 +44,4 @@
 * rename workflow ([dc0531b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/dc0531be4f75164e0720ca7b87e5772d3f2af561))
 * simplify content ([f564987](https://github.com/barbaraschiavinato/accelerator-component-library/commit/f56498709fb47b6d452a23c41dd5303669844f6f))
 * update quotes ([05b2c76](https://github.com/barbaraschiavinato/accelerator-component-library/commit/05b2c76e26a5d7731764459194a8c6ce047c0fd7))
-
-## [0.21.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.20.1...v0.21.0) (2025-01-28)
-
-
-### Features
-
-* **JIRA-1009:** subject of the commit ([465c560](https://github.com/barbaraschiavinato/accelerator-component-library/commit/465c56015166a3f25385dbfc2751d03244f3fcc2))
 
