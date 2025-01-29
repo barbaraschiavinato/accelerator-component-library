@@ -1,3 +1,11 @@
+## [0.26.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.25.0...v0.26.0) (2025-01-29)
+
+
+### Features
+
+* add icon on the button ([cece845](https://github.com/barbaraschiavinato/accelerator-component-library/commit/cece84513d2aa82f110eb93a8d997ea4929e782d))
+* add icon on the button ([d068486](https://github.com/barbaraschiavinato/accelerator-component-library/commit/d0684869b90474477c6e73f88e900906877d8ac1))
+
 ## [0.25.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.24.0...v0.25.0) (2025-01-28)
 
 
@@ -33,15 +41,4 @@
 ### Bug Fixes
 
 * format document ([59ea776](https://github.com/barbaraschiavinato/accelerator-component-library/commit/59ea776aeaac8962769c5068b52263dbfe28f6a0))
-
-## [0.21.1](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.21.0...v0.21.1) (2025-01-28)
-
-
-### Bug Fixes
-
-* change workflow ([887b6f9](https://github.com/barbaraschiavinato/accelerator-component-library/commit/887b6f9f37dcb10af1d4453ec35304066c191e89))
-* fix test ([c8cd1b5](https://github.com/barbaraschiavinato/accelerator-component-library/commit/c8cd1b5c508e7f9c659aad8a389762ab27cf264d))
-* rename workflow ([dc0531b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/dc0531be4f75164e0720ca7b87e5772d3f2af561))
-* simplify content ([f564987](https://github.com/barbaraschiavinato/accelerator-component-library/commit/f56498709fb47b6d452a23c41dd5303669844f6f))
-* update quotes ([05b2c76](https://github.com/barbaraschiavinato/accelerator-component-library/commit/05b2c76e26a5d7731764459194a8c6ce047c0fd7))
 
