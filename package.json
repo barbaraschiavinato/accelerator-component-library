@@ -1,7 +1,7 @@
 {
   "name": "@ntt-data-fe/ui-components",
   "private": false,
-  "version": "0.26.0",
+  "version": "0.27.0",
   "type": "module",
   "main": "dist/ui-components.js",
   "repository": {
