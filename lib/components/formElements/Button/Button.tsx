@@ -29,6 +29,7 @@ export type ButtonPropsBasics = {
   size?: ButtonSize;
   shape?: ButtonShape;
   children?: React.ReactNode;
+  icon?: React.ReactNode;
 };
 
 export type ButtonProps = ButtonPropsBasics &
@@ -49,6 +50,7 @@ export const Button = forwardRef<
     size = 'base',
     shape = 'default',
     children,
+    icon = null,
     ...rest
   },
   ref,
@@ -71,6 +73,7 @@ export const Button = forwardRef<
         ref={ref as React.Ref<HTMLAnchorElement>}
         className={buttonClassName}
       >
+        {icon}
         {children}
       </a>
     );
@@ -94,6 +97,7 @@ export const Button = forwardRef<
       ref={ref as React.Ref<HTMLButtonElement>}
       className={buttonClassName}
     >
+      {icon}
       {children}
     </button>
   );

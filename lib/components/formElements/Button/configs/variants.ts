@@ -5,8 +5,12 @@ const styles = {
     'ui-font-medium',
     'ui-rounded-lg',
     'ui-text-center',
+    'ui-inline-flex',
+    'ui-items-center',
+    'ui-me-2',
   ],
 };
+
 const sizes = {
   extraSmall: ['ui-text-xs', 'ui-px-3', 'ui-py-2'],
   small: ['ui-text-sm', 'ui-px-3', 'ui-py-2'],

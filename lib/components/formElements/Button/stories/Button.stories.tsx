@@ -1,6 +1,8 @@
+import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 import { Button } from '..';
+import { IconExample } from './IconExample';
 
 const meta = {
   title: 'Example/Button',
@@ -86,14 +88,25 @@ const meta = {
         type: { summary: 'string' },
       },
     },
-    testId: {
-      control: 'text',
-      description: 'Test ID for testing purposes',
+    icon: {
+      description: 'Icon component to display inside the button',
+      control: {
+        type: 'radio',
+        labels: {
+          undefined: 'No icon (default)',
+          example: 'GitHub Icon Example',
+        },
+      },
+      options: [undefined, 'example'],
       table: {
         defaultValue: { summary: `undefined` },
-        type: { summary: `string` },
+        type: { summary: 'ReactNode' },
       },
     },
+  },
+  render: (args) => {
+    const icon = args.icon === 'example' ? <IconExample /> : null;
+    return <Button {...args} icon={icon} />;
   },
 } satisfies Meta<typeof Button>;
 
@@ -227,6 +240,13 @@ export const Disabled: Story = {
   args: {
     children: 'Click Me',
     disabled: true,
+  },
+};
+
+export const WithIcon: Story = {
+  args: {
+    children: 'Click Me',
+    icon: <IconExample />,
   },
 };
 
