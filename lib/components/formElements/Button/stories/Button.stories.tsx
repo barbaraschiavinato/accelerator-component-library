@@ -246,7 +246,7 @@ export const Disabled: Story = {
 export const WithIcon: Story = {
   args: {
     children: 'Click Me',
-    icon: <IconExample />,
+    icon: 'example',
   },
 };
 
