@@ -11,6 +11,9 @@ const meta = {
     controls: {
       exclude: ['onClick', 'onBlur', 'onMouseEnter', 'onMouseLeave', 'onFocus'],
     },
+    docs: {
+      source: { language: 'tsx' },
+    },
   },
   argTypes: {
     children: {
@@ -105,7 +108,7 @@ const meta = {
     },
   },
   render: (args) => {
-    const icon = args.icon === 'example' ? <IconExample /> : null;
+    const icon = args.icon === 'example' ? <IconExample /> : undefined;
     return <Button {...args} icon={icon} />;
   },
 } satisfies Meta<typeof Button>;
