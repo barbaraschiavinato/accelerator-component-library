@@ -130,6 +130,15 @@ describe('Button component', () => {
     expect(buttonElement).toHaveClass('ui-rounded-full');
   });
 
+  it('renders an icon if provided', () => {
+    render(<Button icon={<svg className="myIcon"></svg>}>Click Me</Button>);
+    const buttonElement = screen.getByRole('button');
+    expect(buttonElement).toBeInTheDocument();
+    expect(buttonElement.firstChild).toHaveClass('myIcon');
+    expect((buttonElement.firstChild as Element).tagName).toBe('svg');
+    expect(buttonElement).toHaveTextContent('Click Me');
+  });
+
   it('should forward ref to the DOM element', () => {
     const ref = React.createRef<HTMLButtonElement>();
 
