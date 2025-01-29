@@ -1,3 +1,11 @@
+## [0.28.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.27.0...v0.28.0) (2025-01-29)
+
+
+### Features
+
+* change button ison example ([89eb8cb](https://github.com/barbaraschiavinato/accelerator-component-library/commit/89eb8cb12a6ba2cc5308db4504da9256e8ec44df))
+* change button ison example ([45df36a](https://github.com/barbaraschiavinato/accelerator-component-library/commit/45df36ad3958aa44db01440ef87d9e8f0f839d8a))
+
 ## [0.27.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.26.0...v0.27.0) (2025-01-29)
 
 
@@ -27,12 +35,4 @@
 ### Features
 
 * fix git hub token position ([c2059e0](https://github.com/barbaraschiavinato/accelerator-component-library/commit/c2059e03e90c58ad1b89fe383b8f1d614697a228))
-
-## [0.23.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.22.0...v0.23.0) (2025-01-28)
-
-
-### Features
-
-* try to change the release ([e2b2560](https://github.com/barbaraschiavinato/accelerator-component-library/commit/e2b25604ea3f3ae347c5d2e5236e0e1cc79b166f))
-* update release version ([840619c](https://github.com/barbaraschiavinato/accelerator-component-library/commit/840619ccff34a9373c5d868794a5b50eafd935d1))
 
