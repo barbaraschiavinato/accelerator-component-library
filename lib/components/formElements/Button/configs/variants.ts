@@ -3,7 +3,6 @@ const styles = {
     'focus:ui-ring-4',
     'focus:ui-outline-none',
     'ui-font-medium',
-    'ui-rounded-lg',
     'ui-text-center',
     'ui-inline-flex',
     'ui-items-center',
