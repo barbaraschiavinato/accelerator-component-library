@@ -1,3 +1,16 @@
+## [0.29.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.28.0...v0.29.0) (2025-01-30)
+
+
+### Features
+
+* add heading ([702848f](https://github.com/barbaraschiavinato/accelerator-component-library/commit/702848f3194c82e8e4892f8e6f411870fa98f7ad))
+
+
+### Bug Fixes
+
+* pill behaviour on the button ([9ce4b6c](https://github.com/barbaraschiavinato/accelerator-component-library/commit/9ce4b6c27c18da10687e316cf802f54c72b78f74))
+* remove testId ([e0af113](https://github.com/barbaraschiavinato/accelerator-component-library/commit/e0af1134b3ab4030072c21781b6fed54ecbdbc75))
+
 ## [0.28.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.27.0...v0.28.0) (2025-01-29)
 
 
@@ -28,11 +41,4 @@
 ### Features
 
 * update documentation ([a798e2b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/a798e2b98d42ea2c783f65abb7c940a0cac00eb3))
-
-## [0.24.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.23.0...v0.24.0) (2025-01-28)
-
-
-### Features
-
-* fix git hub token position ([c2059e0](https://github.com/barbaraschiavinato/accelerator-component-library/commit/c2059e03e90c58ad1b89fe383b8f1d614697a228))
 
