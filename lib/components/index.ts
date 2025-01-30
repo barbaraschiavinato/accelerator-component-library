@@ -6,3 +6,4 @@ export { Item } from './listElements/Item';
 export { Container } from './layoutElements/Container';
 export { Spinner } from './layoutElements/Spinner';
 export { List } from './listElements/List';
+export { Heading } from './layoutElements/Heading';

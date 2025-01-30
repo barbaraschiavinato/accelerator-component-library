@@ -7,6 +7,7 @@ import {
   ErrorMessage,
   Item,
   List,
+  Heading,
 } from '../lib';
 
 const data = [
@@ -42,13 +43,14 @@ const data = [
 function App() {
   return (
     <Container>
+      <Heading>Component library Sandbox</Heading>
       <form noValidate>
-        <div className="mb-5">
+        <div className="ui-mb-5">
           <Label htmlFor="name">Username</Label>
           <Input aria-invalid={'false'} placeholder="Enter username" />
           <ErrorMessage>Username is required</ErrorMessage>
         </div>
-        <div className="mb-5">
+        <div className="ui-mb-5">
           <Label htmlFor="email">Email Address</Label>
           <Input
             id="email"
