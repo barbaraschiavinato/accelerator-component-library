@@ -23,7 +23,6 @@ export type ButtonShape = 'default' | 'pill';
 
 export type ButtonPropsBasics = {
   as?: 'button' | 'a' | 'input';
-  testId?: string;
   className?: string;
   color?: ButtonColor;
   size?: ButtonSize;
