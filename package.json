@@ -41,7 +41,8 @@
     "audit": "npm audit --omit=dev",
     "prepare": "husky",
     "prebublishOnly": "npm run build",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "precommit": "lint-staged"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
