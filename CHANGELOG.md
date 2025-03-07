@@ -1,3 +1,10 @@
+## [0.30.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.29.0...v0.30.0) (2025-03-07)
+
+
+### Features
+
+* update husky config ([9263559](https://github.com/barbaraschiavinato/accelerator-component-library/commit/9263559b0de43dfb544f87320b3e3660236f35f9))
+
 ## [0.29.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.28.0...v0.29.0) (2025-01-30)
 
 
@@ -34,11 +41,4 @@
 
 * add icon on the button ([cece845](https://github.com/barbaraschiavinato/accelerator-component-library/commit/cece84513d2aa82f110eb93a8d997ea4929e782d))
 * add icon on the button ([d068486](https://github.com/barbaraschiavinato/accelerator-component-library/commit/d0684869b90474477c6e73f88e900906877d8ac1))
-
-## [0.25.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.24.0...v0.25.0) (2025-01-28)
-
-
-### Features
-
-* update documentation ([a798e2b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/a798e2b98d42ea2c783f65abb7c940a0cac00eb3))
 
