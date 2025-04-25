@@ -30,6 +30,8 @@ const themes = {
     'dark:ui-bg-blue-600',
     'dark:hover:ui-bg-blue-700',
     'dark:focus:ui-ring-blue-800',
+    'disabled:hover:ui-bg-blue-700',
+    'dark:disabled:hover:ui-bg-blue-600',
   ],
   alternative: [
     'ui-text-gray-900',
@@ -45,6 +47,8 @@ const themes = {
     'dark:ui-border-gray-600',
     'dark:hover:ui-text-white',
     'dark:hover:ui-bg-gray-700',
+    'disabled:hover:ui-bg-white',
+    'dark:disabled:hover:ui-bg-gray-800',
   ],
   dark: [
     'ui-text-white',
@@ -55,6 +59,8 @@ const themes = {
     'dark:hover:ui-bg-gray-700',
     'dark:focus:ui-ring-gray-700',
     'dark:ui-border-gray-700',
+    'disabled:hover:ui-bg-gray-800',
+    'dark:disabled:hover:ui-bg-gray-800',
   ],
   light: [
     'ui-text-gray-900',
@@ -69,6 +75,8 @@ const themes = {
     'dark:hover:ui-bg-gray-700',
     'dark:hover:ui-border-gray-600',
     'dark:focus:ui-ring-gray-700',
+    'disabled:hover:ui-bg-white',
+    'dark:disabled:hover:ui-bg-gray-800',
   ],
   green: [
     'ui-text-white',
@@ -78,6 +86,8 @@ const themes = {
     'dark:ui-bg-green-600',
     'dark:hover:ui-bg-green-700',
     'dark:focus:ui-ring-green-800',
+    'disabled:hover:ui-bg-green-700',
+    'dark:disabled:hover:ui-bg-green-600',
   ],
   red: [
     'ui-text-white',
@@ -87,6 +97,8 @@ const themes = {
     'dark:ui-bg-red-600',
     'dark:hover:ui-bg-red-700',
     'dark:focus:ui-ring-red-800',
+    'disabled:hover:ui-bg-red-700',
+    'dark:disabled:hover:ui-bg-red-600',
   ],
   yellow: [
     'ui-text-white',
@@ -94,6 +106,8 @@ const themes = {
     'hover:ui-bg-yellow-500',
     'focus:ui-ring-yellow-300',
     'dark:focus:ui-ring-yellow-900',
+    'disabled:hover:ui-bg-yellow-400',
+    'dark:disabled:hover:ui-bg-yellow-400',
   ],
   purple: [
     'ui-text-white',
@@ -103,6 +117,21 @@ const themes = {
     'dark:ui-bg-purple-600',
     'dark:hover:ui-bg-purple-700',
     'dark:focus:ui-ring-purple-800',
+    'disabled:hover:ui-bg-purple-700',
+    'dark:disabled:hover:ui-bg-purple-600',
+  ],
+  contrast: [
+    'ui-text-white',
+    'ui-bg-gray-800',
+    'hover:ui-bg-gray-900',
+    'focus:ui-ring-gray-300',
+    'dark:ui-bg-white',
+    'dark:ui-text-gray-900',
+    'dark:hover:ui-bg-gray-300',
+    'dark:focus:ui-ring-gray-300',
+    'dark:ui-border-gray-300',
+    'disabled:hover:ui-bg-gray-800',
+    'dark:disabled:hover:ui-bg-white',
   ],
 };
 

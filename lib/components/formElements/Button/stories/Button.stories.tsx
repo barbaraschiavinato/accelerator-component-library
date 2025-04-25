@@ -36,12 +36,13 @@ const meta = {
         'red',
         'yellow',
         'purple',
+        'contrast',
       ],
       description: 'Color of the button',
       table: {
         defaultValue: { summary: `'default'` },
         type: {
-          summary: `'default' | 'alternative' | 'dark' | 'light' | 'green' | 'red' | 'yellow' | 'purple'`,
+          summary: `'default' | 'alternative' | 'dark' | 'light' | 'green' | 'red' | 'yellow' | 'purple' | 'contrast'`,
         },
       },
     },
@@ -174,6 +175,13 @@ export const Purple: Story = {
   args: {
     children: 'Click Me',
     color: 'purple' as const,
+  },
+};
+
+export const Contrast: Story = {
+  args: {
+    children: 'Click Me',
+    color: 'contrast' as const,
   },
 };
 
