@@ -10,7 +10,8 @@ export type ButtonColor =
   | 'green'
   | 'red'
   | 'yellow'
-  | 'purple';
+  | 'purple'
+  | 'contrast';
 
 export type ButtonSize =
   | 'extraSmall'
