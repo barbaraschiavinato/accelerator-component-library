@@ -1,3 +1,11 @@
+## [0.32.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.31.0...v0.32.0) (2025-04-25)
+
+
+### Features
+
+* add 'contrast' color for button ([a4cbc4b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/a4cbc4b701781254a8b389b577ff40b9f54fd219))
+* add 'contrast' color for button ([cb1dc04](https://github.com/barbaraschiavinato/accelerator-component-library/commit/cb1dc047c312ff58236fca8742c1ab29f298dc6c))
+
 ## [0.31.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.30.0...v0.31.0) (2025-04-07)
 
 
@@ -32,12 +40,4 @@
 
 * change button ison example ([89eb8cb](https://github.com/barbaraschiavinato/accelerator-component-library/commit/89eb8cb12a6ba2cc5308db4504da9256e8ec44df))
 * change button ison example ([45df36a](https://github.com/barbaraschiavinato/accelerator-component-library/commit/45df36ad3958aa44db01440ef87d9e8f0f839d8a))
-
-## [0.27.0](https://github.com/barbaraschiavinato/accelerator-component-library/compare/v0.26.0...v0.27.0) (2025-01-29)
-
-
-### Features
-
-* add icon on documentation ([c58228b](https://github.com/barbaraschiavinato/accelerator-component-library/commit/c58228b3b0710767a52eba5814f093d80af71ad2))
-* add icon on documentation ([4424a2d](https://github.com/barbaraschiavinato/accelerator-component-library/commit/4424a2d79d525e3726736ece9f4a189d7e7d3375))
 
